@@ -1,0 +1,9 @@
+D:\c#\MyQQ\MyQQ\bin\Debug\MyQQ.exe.config
+D:\c#\MyQQ\MyQQ\bin\Debug\MyQQ.exe
+D:\c#\MyQQ\MyQQ\bin\Debug\MyQQ.pdb
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.csprojResolveAssemblyReference.cache
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.Properties.Resources.resources
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.csproj.GenerateResource.Cache
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.exe
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.pdb
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.Frm_Login.resources
