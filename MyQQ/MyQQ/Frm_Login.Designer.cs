@@ -128,6 +128,7 @@
             this.linklblReg.TabIndex = 7;
             this.linklblReg.TabStop = true;
             this.linklblReg.Text = "申请账号";
+            this.linklblReg.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblReg_LinkClicked);
             // 
             // Frm_Login
             // 

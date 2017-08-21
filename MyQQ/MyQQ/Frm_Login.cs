@@ -157,6 +157,12 @@ namespace MyQQ
             }
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
         }
+
+        private void linklblReg_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Frm_Register frmRegister = new Frm_Register();
+            frmRegister.Show();
+        }
     }
 
 
