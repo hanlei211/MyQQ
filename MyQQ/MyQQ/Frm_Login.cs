@@ -20,7 +20,7 @@ namespace MyQQ
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            Application.ExitThread();//退出当前应用
         }
 
         private void Frm_Login_Load(object sender, EventArgs e)
@@ -162,6 +162,11 @@ namespace MyQQ
         {
             Frm_Register frmRegister = new Frm_Register();
             frmRegister.Show();
+        }
+
+        private void pboxMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 

@@ -95,5 +95,10 @@ namespace MyQQ
             MessageBox.Show(message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

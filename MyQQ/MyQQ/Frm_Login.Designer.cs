@@ -71,6 +71,7 @@
             this.pboxMin.Size = new System.Drawing.Size(33, 29);
             this.pboxMin.TabIndex = 2;
             this.pboxMin.TabStop = false;
+            this.pboxMin.Click += new System.EventHandler(this.pboxMin_Click);
             // 
             // piboxClose
             // 
@@ -87,7 +88,7 @@
             this.cboxRemeber.AutoSize = true;
             this.cboxRemeber.Location = new System.Drawing.Point(134, 262);
             this.cboxRemeber.Name = "cboxRemeber";
-            this.cboxRemeber.Size = new System.Drawing.Size(106, 22);
+            this.cboxRemeber.Size = new System.Drawing.Size(72, 16);
             this.cboxRemeber.TabIndex = 4;
             this.cboxRemeber.Text = "记住密码";
             this.cboxRemeber.UseVisualStyleBackColor = true;
@@ -99,7 +100,7 @@
             this.cboxAutoLogin.AutoSize = true;
             this.cboxAutoLogin.Location = new System.Drawing.Point(257, 262);
             this.cboxAutoLogin.Name = "cboxAutoLogin";
-            this.cboxAutoLogin.Size = new System.Drawing.Size(106, 22);
+            this.cboxAutoLogin.Size = new System.Drawing.Size(72, 16);
             this.cboxAutoLogin.TabIndex = 5;
             this.cboxAutoLogin.Text = "自动登录";
             this.cboxAutoLogin.UseVisualStyleBackColor = true;
@@ -124,7 +125,7 @@
             this.linklblReg.LinkColor = System.Drawing.SystemColors.Highlight;
             this.linklblReg.Location = new System.Drawing.Point(338, 216);
             this.linklblReg.Name = "linklblReg";
-            this.linklblReg.Size = new System.Drawing.Size(80, 18);
+            this.linklblReg.Size = new System.Drawing.Size(53, 12);
             this.linklblReg.TabIndex = 7;
             this.linklblReg.TabStop = true;
             this.linklblReg.Text = "申请账号";
