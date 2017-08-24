@@ -44,7 +44,7 @@ namespace MyQQ
                 txtID.Focus();
                 return false;
             }
-            else if (txtID.Text.Length > 10 && txtPwd.Text.Trim() == "")
+            else if (txtID.Text.Length >10 && txtPwd.Text.Trim() == "")
             {
                 MessageBox.Show("请输入登录密码", "登录提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtPwd.Focus();
@@ -59,7 +59,7 @@ namespace MyQQ
             if(Char.IsDigit(e.KeyChar)|| (e.KeyChar == '\r') || (e.KeyChar == '\b'))
                 e.Handled = false;
             else
-                e.Handled = false;
+                e.Handled = true;
         }
 
         //【安全登录】

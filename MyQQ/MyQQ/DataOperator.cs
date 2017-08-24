@@ -42,5 +42,15 @@ namespace MyQQ
             sqlda.Fill(ds);
             return ds;
         }
+
+        public SqlDataReader GetDataReader(string sql)
+        {
+            SqlCommand command = new SqlCommand(sql,connection);
+            if (connection.State == ConnectionState.Closed)
+                connection.Open();
+            SqlDataReader dataReader = command.ExecuteReader();
+            return dataReader;
+        }
+
     }
 }

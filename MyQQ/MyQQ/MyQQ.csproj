@@ -71,6 +71,9 @@
     <EmbeddedResource Include="Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Register.resx">
       <DependentUpon>Frm_Register.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +108,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

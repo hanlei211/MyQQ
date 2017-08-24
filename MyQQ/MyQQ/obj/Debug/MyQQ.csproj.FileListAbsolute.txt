@@ -8,3 +8,4 @@ D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.exe
 D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.pdb
 D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.Frm_Login.resources
 D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.Frm_Register.resources
+D:\c#\MyQQ\MyQQ\obj\Debug\MyQQ.Frm_Main.resources
